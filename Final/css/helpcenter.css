@@ -1,0 +1,83 @@
+.box {
+  width: 300px;
+  background-color: #7C7E82;
+  padding: 50px;
+  padding-bottom: 100px;
+  margin: 40px;
+  margin-left: 90px;
+  color: #fff;
+}
+.one{
+    margin:50px;
+    margin-left: 150px;
+
+}
+
+.dot {
+
+  height: 80px;
+  width: 85px;
+  padding-bottom: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+.dot2 {
+
+  height: 80px;
+  width: 85px;
+  padding-bottom: 20px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 100px;
+
+}
+.promise {
+    margin-left: 100px;
+}
+hr.line {
+  border-top: 1px dotted  #000000;
+}
+/fORM/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #C4C4C4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.recbox{
+    background-color: #C4C4C4;
+    padding:200px;
+
+}
+.partners{
+    column-count: 2;
+}
+.partnersdescription{
+    column-count: 2;
+}
+.partnerbox{
+    background-color: #E5E5E5;
+    margin-right: 20px;
+}

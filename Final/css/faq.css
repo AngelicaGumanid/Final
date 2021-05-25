@@ -1,0 +1,256 @@
+.container-fluid{
+	background-color: #C4C4C4;
+}
+
+.center {
+  text-align:center;
+}
+
+.center p{
+  font-size: 20px;
+}
+
+
+
+/* SEARCH BOX */
+
+.search
+{
+	border: 2px solid #CF5C3F;
+	overflow: auto;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #C4C4C4;
+		border-color: #C4C4C4;
+}
+
+.search input[type="text"]
+{
+	border: 0px;
+	width: 67%;
+	padding: 10px 10px;
+	background-color: #C4C4C4;
+	border-color: #C4C4C4;
+}
+
+.search input[type="text"]:focus
+{
+	outline: 0;
+}
+
+.search input[type="submit"]
+{
+	border: 0px;
+	background: none;
+	background-color: #CF5C3F;
+	color: #fff;
+	float: right;
+	padding: 10px;
+	border-radius-top-right: 5px;
+	-moz-border-radius-top-right: 5px;
+	-webkit-border-radius-top-right: 5px;
+	border-radius-bottom-right: 5px;
+	-moz-border-radius-bottom-right: 5px;
+	-webkit-border-radius-bottom-right: 5px;
+        cursor:pointer;
+		background-color: #C4C4C4;		
+
+
+}
+
+/* Media Query for Search Box */
+
+@media only screen and (min-width : 150px) and (max-width : 780px)
+{
+	{}
+	.search
+	{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+}
+
+
+/* SIDE NAVBAR */
+
+.sidenav {
+  height: 950px;
+  width: 300px;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: #C4C4C4;
+  overflow-x: hidden;
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* WRAPPER */
+
+.wrapper {
+  margin: 0 auto;
+  height: 1400px;
+  width: 1105px;
+  background: #transparent;
+}
+
+.sidebar {
+  background-color: #ddd;
+  float: left;
+  width: 300px;
+  height: 100px;
+}
+
+.main {
+  float: right;
+  background-color: transparent;
+  width: 805px;
+  height: 1400px;
+  padding-left: 20px;
+}
+
+.main a{
+	color: #000000;
+}
+
+/* CARDS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* PAGINATION */
+
+.pagination{
+  background-color: #f2f2f2;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.pagination a{
+  width: 100px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  transition: .3s linear;
+}
+
+.pagination a:hover{
+  color: #eb4d4b;
+}
+
+
+.bar{
+  position: absolute;
+  width: 100px;
+  height: 4px;
+  background-color: #eb4d4b;
+  bottom: 0;
+  left: -100px;
+  transition: .4s linear;
+}
+
+.pagination a:nth-child(1):hover ~ .bar{
+  left: 0;
+}
+
+.pagination a:nth-child(2):hover ~ .bar{
+  left: 100px;
+}
+
+.pagination a:nth-child(3):hover ~ .bar{
+  left: 200px;
+}
+
+.pagination a:nth-child(4):hover ~ .bar{
+  left: 300px;
+}
+
+.pagination a:nth-child(5):hover ~ .bar{
+  left: 400px;
+}
+
+.pagination a:nth-child(6):hover ~ .bar{
+  left: 500px;
+}
+
+.pagination a:nth-child(7):hover ~ .bar{
+  left: 600px;
+}
+.pagination a:nth-child(8):hover ~ .bar{
+  left: 700px;
+}
+
+/* CONTENTS DESIGN */
+
+.contentt{
+	padding: 50px 0;
+	background-color: #C4C4C4;
+}
+
+.center {
+  text-align:center;
+}
+
+.center p{
+  font-size: 20px;
+}
