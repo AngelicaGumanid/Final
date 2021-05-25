@@ -15,6 +15,9 @@
 	<link rel = "stylesheet" href = "css/navbarstyle.css">
 	<link rel = "stylesheet" href = "css/footerstyle.css">
 
+    <!-- User Account -->
+    <link rel = "stylesheet" href = "css/useraccountstyle.css">
+
 </head>
 
 <!-- Header -->
@@ -79,21 +82,48 @@
 	    
         <div class="row">
             
-            <div class="column" style="background-color:#aaa;">
+            <div class="column">
                 
-                <h2>Column 1</h2>
-                <p>Some text..</p>
+                <img src="images/logo.png" alt="Avatar" style="width:200px">
+
+                <p> My Account </p>
+
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Profile </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Bank and Cards </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Addresses </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Change Password </a>
+
+                <p> My Purchase </p>
+                
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> All </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> To Pay </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> To Ship </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> To Receive </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Completed </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Cancelled </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Purchase History </a>
+
+                <p> Notification </p>
+
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Order Updates </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Promotion </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Activities </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Change Password </a>
+
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> My Voucher </a>
+                <a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Recently Viewed </a>
+
             
             </div>
             
-            <div class="column" style="background-color:#bbb;">
+            <div class="column">
                 
                 <h2>Column 2</h2>
                 <p>Some text..</p>
             
             </div>
             
-            <div class="column" style="background-color:#ccc;">
+            <div class="column">
                 
                 <h2>Column 3</h2>
                 <p>Some text..</p>
@@ -103,6 +133,7 @@
 
 	</div>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <!--footer start-->
 <footer>
 	
@@ -219,7 +250,7 @@
 		</div>
 		
 	</div> 
-	
+
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
