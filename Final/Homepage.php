@@ -78,6 +78,8 @@
 	<div class = "container">
 	<div class = "content">
 		
+		<p> Dagdag ako ng line dito try lang para sa github. </p>
+		
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repudiandae sapiente explicabo aperiam veritatis adipisci, omnis debitis sint quaerat soluta necessitatibus, dolore accusamus aut neque ab? Non praesentium maxime perferendis!</p>
 	
 	<div class = "line"></div>
