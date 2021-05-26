@@ -113,14 +113,14 @@
 		
 			<h3>OUR PROMISE</h3><br>
 			
-			<span class="dot"></span><div class="text1"><h5>&nbsp&nbsp Promise 1</h5></div>
+			<h5><img src="images/logo.png" alt="">&nbsp&nbsp Promise 1</h5>
             
 				<p>Description Description Description Description Description Description Description Description Description Description
 				Description Description Description Description Description Description Description Description Description Description</p>
   
 			<div class="promise2">
 				
-				<h5><span class="dot2"></span> &nbsp&nbsp Promise 2</h5>
+			<h5><img src="images/logo.png" alt="">&nbsp&nbsp Promise 2</h5>
             
 				<p>Description Description Description Description Description Description Description Description Description Description
 				Description Description Description Description Description Description Description Description Description Description</p>
