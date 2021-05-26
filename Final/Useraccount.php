@@ -118,22 +118,110 @@
             
             <div class="column">
                 
-                <h2>Column 2</h2>
-                <p>Some text..</p>
+                <h1> My Profile </h1>
+                <p>Manage and protect your Account</p>
+
+				<table>
+
+<form>
+
+<tr>
+<td><label> Username: </label></td>
+<td><input type = "text" id = "sname"></td>
+</tr>
+
+<tr>
+<td><label> Name: </label></td>
+<td colspan="3"><input type = "text" id = "youraddress" style="width: 548;"></td>
+<tr>
+
+<tr>
+<td><label> Email: </label></td>
+<td colspan="3"><input type = "text" id = "youraddress" style="width: 548;"></td>
+<tr>
+
+<tr>
+<td><label> Contact Number: </label></td>
+<td colspan="3"><input type = "number" id = "cnumber" maxlength = "11" style="width: 548;"></td>
+<tr>
+
+<tr>
+<td><label>Gender:</label></td>
+<td colspan="3"><input type= "radio" name="gender" value="Male"  style = "border: 1px solid blue"> Male
+<input type= "radio" name="age" value="Female"> Female</td>
+</tr>
+
+<tr>
+<td><label for="start"> Date of Birth:</label></td>
+<td colspan="3"><input type = "text" placeholder = "YYYY-MM-DD" id = "youraddress" style="width: 548;"></td>
+<tr>
+
+<tr>
+<td colspan="4"> <br><input type="submit" value="Save">
+</tr>
+
+</table>
+
+<hr>
+
+<h1> Bank and Cards and Addresses Format </h1>
+
+<p> Category </p>
+
+<hr>
+
+<h1> Change Password </h1>
+
+<table>
+
+<form>
+
+<tr>
+<td><label> Current Password: </label></td>
+<td><input type = "text" id = "sname"></td>
+</tr>
+
+<tr>
+<td><label> New Password: </label></td>
+<td><input type = "text" id = "sname"></td>
+</tr>
+
+<tr>
+<td><label> Confirm Password: </label></td>
+<td><input type = "text" id = "sname"></td>
+</tr>
+
+<tr>
+<td colspan="4"> <br><input type="submit" value="Confirm">
+<td> <a href="<?php echo 'Homepage.php'; ?>"> Forgot Your Password? </a>
+</tr>
+
+</table>
+
+
+
             
             </div>
             
-            <div class="column">
+            <div class="column" style = "text-align: center;">
+			
+
                 
-                <h2>Column 3</h2>
-                <p>Some text..</p>
+				<img src="images/logo.png" alt="Avatar" style="width:200px">
+				<br><br>
+				<input type="submit" value="Select Image">
+                
+                <p>File size: maximum 1 MB </p>
+				<p> File extension: .JPEG, .PNG</p>
             </div>
         
         </div>
 
+
 	</div>
 
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
 <!--footer start-->
 <footer>
 	
