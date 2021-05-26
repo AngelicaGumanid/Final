@@ -139,7 +139,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<img src="images/pic.PNG" class="card-img-top" alt="...">
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -175,7 +175,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -211,7 +211,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -247,7 +247,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -289,7 +289,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -325,7 +325,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -361,7 +361,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -397,7 +397,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -439,7 +439,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -475,7 +475,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -511,7 +511,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -547,7 +547,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
