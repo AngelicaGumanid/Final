@@ -130,137 +130,13 @@
 		</div>
 		
 		<hr class="line">
-        <a name="terms"></a>
-        
-		<div class="terms">
-        
-			<h3>TERMS AND POLICY</h3>
-            
-			<p>Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme</p>
-        
-			<h4>Terms and Services</h4>
-            
-			<p>Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme</p>
-        
-			<h4>Privacy Policy</h4>
-            
-			<p>Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme</p>
-        
-			<h4>Merchandise Policy</h4>
-        
-			<a name="contact"></a>
-        
-			<p>Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme</p>
-		
-		</div>
-		  
-		<hr class="line">
-          
-		<div class="contact">
-		
-			<h3>CONTACT US</h3>
-            
-			<p>Important Notice</p> 
-            
-			<p>Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme</p>
-            
-			<p>1. Keme keme keme keme keme keme</p> 
-        
-			<p>2. Keme keme keme keme keme keme</p> 
-
-			<h4>Do You Have Any Concerns?</h4>
-		
-			<p>Please send us your messages, response, and feedback to further improve our service. Thank you!!!</p>
-            
-			<form action="/action_page.php">
-				
-				<label for="fname">First Name</label>
-				<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-				<label for="lname">Last Name</label>
-				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-				<label for="subject">Message</label>
-				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-				<input type="submit" value="Submit">
-			
-			</form>
-		</div>
-		  
-		<a name="advertise"></a>
-		<hr class="line">
-          
-		<div class="advertise">
-			
-			<h3>ADVERTISING ON TORI ANIME COLLECTIBLES</h3>
-            
-			<p>Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme</p>
-
-			<h4>Facebook</h4>
-			
-			<div class="recbox"></div>
-          
-			<p>Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme Keme keme keme keme keme keme keme keme keme keme keme keme keme</p>
-
-			<p>This section also includes statistics</p>
-		
-		</div>
-		  
-		<br>
-		
-		<hr class="line">
-		<a name="partners"></a>
-
-		<h3>OUR BUSINESS PARTNERS</h3>
-			
-			<div class="partners">
-				
-				<h2 class="partnerbox">&nbsp&nbspA</h2><h2 class="partnerbox">&nbsp&nbspM</h2>
-			
-			</div>
-		  
-			<div class="partnersdescription">
-            
-				<p>ACG Co., Ltd.
-				All Nippon Airways Co., Ltd.
-				ALPHAMAX Co., Ltd.
-				Amuse Inc.
-				Aniplex of America Inc.
-				ANSWR inc.</p>
-
-				<p>MEDICOM TOY CORPORATION
-				MILESTONE Inc.
-				Mighty Fine Inc.
-				MirkWood Co., Ltd.
-				M-ON! Entertainment Inc.
-				Mousa
-				Movic Co., Ltd.</p>
-			
-			</div>
-		  
-			<hr class="line">
-			
-			<a name="iconbanner"></a>
-            
-			<div class="iconbanner">
-				
-				<h3>TAC ICON AND BANNER</h3>
-                
-				<p>*This is the part where users can get links for the shop’s icon and banner</p>
-			
-			</div>
+       
 			
 	</div>
 	
 	</div>
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
 
 <!--footer start-->
 <footer>
