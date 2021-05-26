@@ -113,7 +113,7 @@
 		
 			<h3>OUR PROMISE</h3><br>
 			
-			<h5><span class="dot"></span>&nbsp&nbsp Promise 1</h5>
+			<span class="dot"></span><div class="text1"><h5>&nbsp&nbsp Promise 1</h5></div>
             
 				<p>Description Description Description Description Description Description Description Description Description Description
 				Description Description Description Description Description Description Description Description Description Description</p>

@@ -37,10 +37,13 @@
 .promise {
     margin-left: 100px;
 }
+.text1{
+  padding-top: 20px;
+}
 hr.line {
   border-top: 1px dotted  #000000;
 }
-/fORM/
+/*fORM*/
 
 input[type=text], select, textarea {
   width: 100%;

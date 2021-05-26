@@ -24,6 +24,10 @@ div#main {
    flex: 1;
 }
 
+.main .img{
+  margin-right: 30px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   background:#f3f2f2;
@@ -61,6 +65,12 @@ p {
 
 .content {
   padding: 50px 0;
+}
+
+.navbar-brand img{
+  width: 30%;
+  height: 30%;
+  margin-right: 150px;
 }
 
 /* Modify the backgorund color */
