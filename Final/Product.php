@@ -92,19 +92,39 @@
     <!--PRODUCT-->
     <div class= container>
             <button class = "btn"><i class = "fas fa-cart-plus"></i></button>
-            <h4 style="display:inline;">Continue Shopping</h4>
+            <a class="link-secondary" href="#">Continue Shopping</a>
 
-            <br><br>
+           
+
 			    <div class="container-fliud">
 				    <div class="wrapper row">
-					    <div class="preview col-md-5">
+					    <div class="preview col-md-6">
 						
 						<div class="preview-pic tab-content">
 						  <div class="tab-pane active" id="pic-1"><img src="http://placekitten.com/400/252" /></div>
+
+                          <ul class="preview-thumbnail nav nav-tabs">
+						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+						  <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+						  <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+						  <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+						  <li><a data-target="#pic-5" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
+						</ul>
+                          <div>
+                <h4 class="product-title">Share:</h4>
+				<li class="round-btn btn-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li class="round-btn btn-linkedin"><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+				<li class="round-btn btn-twitter"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+				<li class="round-btn btn-instagram"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+				<li class="round-btn btn-whatsapp"><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+				<li class="round-btn btn-envelop"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+				</li>
+			
+			</div>
 					</div>	
 				</div>
 
-                <div class="details col-md-4">
+                <div class="details col-md-6">
 		    		<h3 class="product-title">[Status]</h3>
                     <h1 class="product-title">PRODUCT NAME</h1>
                     <h3 class="product-title">Product Description</h3> 
@@ -112,14 +132,14 @@
                     <h3 class="price">P00.00</h3>
                     <h3 class="price">Rating | Number of Ratings</h3>
 
-                        <p class="product-description">keme keme keme keme keme keme keme keme hahahahaaaaaaaaaaaaaahahhahahahahaaaaaaaaaaaaaaaaaahaha</p>
+                        <p class="product-description">keme keme keme keme keme keme keme keme keme keme keme keme</p>
 						<h3 class="Shop Vouchers">Shop Vouchers</h3>
                         <br>
                         <h3 class="Shop Vouchers">Shipping</h3>
 
             <div class="container">
 	            <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-lg-5">
                             <div class="input-group">
                             <span class="input-group-btn">
                             <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
@@ -136,9 +156,14 @@
 	            </div>
         </div>
 
+                        <p class="font-italic">You have reached the maximum quantity available for this item</p>
 
+						
     <br><br>
-<div class=container>
+
+    
+    
+
     
         <p>
             <a href="#" class="btn btn-info btn-lg">
@@ -158,73 +183,55 @@
             </a>
         </p> 
 
-        <button type="button" class="btn btn-default">Message</button>
-        <button type="button" class="btn btn-default">Need Help</button>
+        <p>
+            <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-message"></span> Message
+            </a>
+        </p> 
+        <p>
+            <a href="#" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-message"></span> Need Help?
+            </a>
+        </p> 
+
 
 <br><br>
-</div>
+<h1>Product Rating</h1>
+                <div class = "container">
+                <div class="btn-group">
+                        <a href="#!" class="btn btn-primary ">All</a>
+                        <a href="#!" class="btn btn-primary">5 Stars</a>
+                        <a href="#!" class="btn btn-primary">4 Stars</a>
+                        <a href="#!" class="btn btn-primary">3 Stars</a>
+                        <a href="#!" class="btn btn-primary">2 Stars</a>
+                        <a href="#!" class="btn btn-primary">1 Stars</a>
+                        <a href="#!" class="btn btn-primary">No Rating</a>
+                    </div>
+                    </div>
+                    <br><br>
+
     <div class="container">
-    			
 		<div class="row">
-			<div class="col-sm-3">
-				<div class="rating-block">
-					<h4>Average user rating</h4>
-					<h2 class="bold padding-bottom-7">4.3 <small>/ 5</small></h2>
-					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
-					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-					</button>
-					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
-					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-					</button>
-					<button type="button" class="btn btn-warning btn-sm" aria-label="Left Align">
-					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-					</button>
-					<button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
-					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-					</button>
-					<button type="button" class="btn btn-default btn-grey btn-sm" aria-label="Left Align">
-					  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-					</button>
-				</div>
-
-			</div>
-
-		<div class="row">
-			
-				<hr/>
 				<div class="review-block">
 					<div class="row">
 						<div class="col-sm-2">
 							<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
-							<div class="review-block-name"><a href="#">nktailor</a></div>
+							
 							
 						</div>
+                        
 						<div class="col-sm-7">
-							<div class="review-block-rate">
-								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
-								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								</button>
-								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
-								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								</button>
-								<button type="button" class="btn btn-warning btn-xs" aria-label="Left Align">
-								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								</button>
-								<button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align">
-								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								</button>
-								<button type="button" class="btn btn-default btn-grey btn-xs" aria-label="Left Align">
-								  <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-								</button>
-							</div>
+                        <div class="review-block-name"><a href="#">Username|*U*******</a></div>
 							<div class="review-block-title">this was nice in buy</div>
 							<div class="review-block-description">this was nice in buy. this was nice in buy. this was nice in buy. this was nice in buy this was nice in buy this was nice in buy this was nice in buy this was nice in buy</div>
-
+                        <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
                             <div class="review-block-date">January 29, 2016<br/>1 day ago</div>
+
 						</div>
 					</div>
-					<hr/>
-					
+				<hr/>
+
+                
 
     <h1>YOU MAY ALSO LIKE</h1>
 
