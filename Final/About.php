@@ -208,9 +208,7 @@ After the payment is completed, the order is established and you will receive a 
 			
 			<div class="column">
 			<div class="card">
-				<div class = "uwu">
-					<img src="images/card1.jpg" >
-				</div>
+			<img src="images/card1.jpg" class="uwu" >
 				<p>Items are sealed</p>
 				<p>in bubblewrap</p>
 			
@@ -219,8 +217,7 @@ After the payment is completed, the order is established and you will receive a 
 		
 		<div class="column">
 		<div class="card">
-			
-			<h3>Card 2</h3>
+		<img src="images/card2.jpg" class="uwu" >
 			<p>We also put it</p>
 			<p>in the box or pouch</p>
 		
@@ -229,20 +226,19 @@ After the payment is completed, the order is established and you will receive a 
 	
 		<div class="column">
 		<div class="card">
-			
-			<h3>Card 3</h3>
-			<p>Some text</p>
-			<p>Some text</p>
+		<img src="images/card3.jpg" class="uwu" >
+			<p>We secure it</p>
+			<p>in lalabag</p>
 		
 		</div>
 		</div>
 		
 		<div class="column">
 		<div class="card">
-		
-			<h3>Card 4</h3>
-			<p>Some text</p>
-			<p>Some text</p>
+		<img src="images/card4.jpg" class="uwu" >	
+				
+			<p>Rider will</p>
+			<p>take care of it</p>
 		
 		</div>
 		</div>
@@ -251,7 +247,7 @@ After the payment is completed, the order is established and you will receive a 
 
 		<div class="Text1">
 			
-			<p>Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text TextText Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text </p>
+			<p>Products may be damaged and quality may decrease if shipped as is. The purpose of packaging is to protect the product with cardboard or wooden crates to prevent damage and a decrease in quality. With packaging, damage can be prevented due to vibrations and falls and decreases in quality can also be prevented due to mold and rot from humidity. Products can also be differentiated more easily by marking the name of the contents, volume, production date, and lot number on the cardboard box. Products with a difficult shape to carry can be easier to stack on a cart and transport if put in a cardboard box. Packaging is also effective for maintaining quality during storage. </p>
 		
 		</div>
 		
