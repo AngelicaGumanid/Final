@@ -88,7 +88,7 @@
 		<div class="rectangleshape">
 		<div class="container text-center">
 		
-			<img src="">
+			<img src="images/toystoys.jpg" alt="log" width="500" height="600" >
 		
 		</div>
 		</div>
@@ -105,22 +105,22 @@
 			
 			<div class="carousel1">
 		    
-				<div class="carousel__face1"><span>This is something</span></div>
-				<div class="carousel__face1"><span>Very special</span></div>
-				<div class="carousel__face1"><span>Special is the key</span></div>
-				<div class="carousel__face1"><span>For you</span></div>
-				<div class="carousel__face1"><span>Just give it</span></div>
-				<div class="carousel__face1"><span>A try</span></div>
-				<div class="carousel__face1"><span>And see</span></div>
-				<div class="carousel__face1"><span>How IT Works</span></div>
-				<div class="carousel__face1"><span>Woow</span></div>
+				<div class="carousel__face1"><span>All</span></div>
+				<div class="carousel__face1"><span>items</span></div>
+				<div class="carousel__face1"><span>arec</span></div>
+				<div class="carousel__face1"><span>authenti</span></div>
+				<div class="carousel__face1"><span>and</span></div>
+				<div class="carousel__face1"><span>bought</span></div>
+				<div class="carousel__face1"><span>from</span></div>
+				<div class="carousel__face1"><span>Japan</span></div>
+				<div class="carousel__face1"><span>:)</span></div>
 			
 			</div>
 		</div>
 	
 		<div class="Text2">
 		
-			<p>Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text Text Text Text Text  Text Text  Text Text Text Text Text  Text Text  Text Text Text Text Text </p>
+			<p>In recent years, bootleg products making use of the Nendoroid name or imitating other products distributed by Tori Anime Collectibles have been increasing. These items are usually sold on online shops and internet auction websites, as well as through private sales. Please note that Tori Anime Collectibles cannot provide support for bootleg products. Please always take care when you are purchasing products, as sellers will often attempt to make the product seem like an authentic product.</p>
 		
 		</div>
 		
@@ -147,19 +147,24 @@
 				
 				<br>
 				
-				<p>Description Description Description Description Description Description Description Description Description Description
-	      		Description Description Description Description Description Description Description Description Description Description</p>
+				<p> 
+Browse at tori anime collectibles to find your products or directly search the product model for choosing. Select the quantity of the product in the product page, click “add to cart”, the selected product will be in your shopping cart then you can continuously to browse other products. After selecting all the products, click the “cart” bottom at the top right of the page to entering the billing page.
+
 	      	
 			</div>
 
 	      	<div class="process2">
 				
-				<h5><span class="dot2"></span> &nbsp&nbsp Process 1</h5>
+				<h5><span class="dot2"></span> &nbsp&nbsp Process 2</h5>
 				
 				<br>
 	      		
-				<p>Description Description Description Description Description Description Description Description Description Description
-	      		Description Description Description Description Description Description Description Description Description Description</p>
+				<p> Clearly and details information of recipient, delivery address and contact, click “ORDER” after filled all information. All bank, gcash or paypal payments are processed in real time. Once your your payment has been verified, we will process your order immediately.
+
+				<br>
+
+After the payment is completed, the order is established and you will receive a notification email in your registered e-mail for notice you the order has been successfully ordered. Tori Anime Collectibles will call to confirm the order within 1-4 working days (Monday to Friday; except public holidays). Delivery time will be depends on the situation at the time.</p>
+<br><br></p>
 	      	
 			</div>
 			
@@ -177,10 +182,7 @@
 				
 				<br>
 	      		
-				<p>Description Description Description Description Description Description Description Description Description Description
-	      		Description Description Description Description Description Description Description Description Description Description
-	      		Description Description Description Description Description Description Description Description Description Description
-	      		Description Description Description Description Description Description Description
+				<p> Kindly message us in facebook page Tori Anime Collectibles or message us in our email toricustomerservice@gmail.com Please allow 2 to 3 working days for us to answer your inquiries.
 	      		</p>
 	      	
 			</div>
@@ -206,10 +208,11 @@
 			
 			<div class="column">
 			<div class="card">
-				
-				<h3>Card 1</h3>
-				<p>Some text</p>
-				<p>Some text</p>
+				<div class = "uwu">
+					<img src="images/card1.jpg" >
+				</div>
+				<p>Items are sealed</p>
+				<p>in bubblewrap</p>
 			
 			</div>
 			</div>
@@ -218,8 +221,8 @@
 		<div class="card">
 			
 			<h3>Card 2</h3>
-			<p>Some text</p>
-			<p>Some text</p>
+			<p>We also put it</p>
+			<p>in the box or pouch</p>
 		
 		</div>
 		</div>

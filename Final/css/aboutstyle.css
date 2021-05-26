@@ -61,7 +61,7 @@ span {
 
 
 .carousel__face1:nth-child(1) {
-  background-image: url("https://images.pexels.com/photos/1141853/pexels-photo-1141853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background: url(auth1.png);
   transform: rotateY(  0deg) translateZ(430px); }
 .carousel__face1:nth-child(2) {
   background-image: url("https://images.pexels.com/photos/1258865/pexels-photo-1258865.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
@@ -210,6 +210,11 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.uwu {
+  height: 200px;
+  width: 50%;
 }
 
 /* Responsive columns */
