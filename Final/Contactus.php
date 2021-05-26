@@ -120,10 +120,10 @@
               <form action="/action_page.php">
                   
                   <label for="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your first name.." style="height:200px; width:1000px;">
+                  <input type="text" id="fname" name="firstname" placeholder="Your first name.." style=" width:400px;">
 				 	 <br>
                   <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name.."style=" width:400px;">
 					<br>
                   <label for="subject">Message</label>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width:1000px;"></textarea>
