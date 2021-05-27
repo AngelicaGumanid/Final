@@ -103,19 +103,9 @@ span {
   margin-left:100px;
   margin-right:100px;
 }
-.box {
-  position: relative;
-  background-color: #747875;
-  padding-top: 180px;
-  padding-left: 100px;
-  margin-top: 0px;
-  margin-left: 150px;
-  margin-right: 0px;
-}
+
 @media only screen and (max-width: 1200px){
-  .box  {
-  margin-left: 50px;
-}
+  
 }
 @media only screen and (max-width: 767px){
   .box  {
@@ -128,10 +118,10 @@ span {
   }
 }
   .process2{
-    text-align: center;
-    margin-left: 80px;
+    
+    margin-left: 10px;
   }
-}
+
 .col-md-4-sp{
   margin-left: 0px;
   text-align: left;
@@ -482,6 +472,7 @@ body {
   position: absolute;
   left: 1100px;
 }
+
 @media only screen and (max-width: 1679px){
 
   .circle {
@@ -681,12 +672,13 @@ body {
 
 .devs{
 	text-align: center;
-    width: 90px;
-    height: 90px;
+   
     background-size: contain;
     font-size: 10px
 	
 }
+
+
 
 /* CONTENT DESIGN */
 

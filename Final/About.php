@@ -85,13 +85,13 @@
 	<section id="About">
 	
 		<div style="text-align: center;"><h1>TORI ANIME COLLECTIBLES</h1></div>
-		<div class="rectangleshape">
+		
 		<div class="container text-center">
 		
-			<img src="images/toystoys.jpg" alt="log" width="500" height="600" >
+			<img src="images/toystoys.jpg" alt="log" style="width: 1000px; height:700px;" >
 		
 		</div>
-		</div>
+		
 	
 		<div class="Text1">
 			
@@ -129,13 +129,13 @@
 		<div class="row mb-3">
 		
 			<div class="col-md-4 img">
-			<div class="box">
+			
 			<div class="container text-center">
 	    	
-				<img src="">
+				<img src=""style="width: 200px; height:200px;">
 	  		
 			</div>
-			</div>
+			
 			</div>
 			
 			<div class="col-md-8 sp">
@@ -190,13 +190,13 @@ After the payment is completed, the order is established and you will receive a 
 	  
 		<div class="col-md-4 sp">
 			
-			<div class="box2">
+			
 	  		<div class="container text-center">
 	    		
-				<img src="">
+				<img src=""style="width: 200px; height:200px;">
 	  		
 			</div>
-			</div>
+			
 	
 		</div>
 		
@@ -259,13 +259,13 @@ After the payment is completed, the order is established and you will receive a 
 			
 			<br><br>
 			
-			<div class="box">
+			
 			<div class="container text-center">
 			
-				<img src="">
+				<img src=""style="width: 200px; height:200px;">
 	  		
 			</div>
-			</div>
+			
 			
 			</div>
 			
@@ -311,13 +311,13 @@ After the payment is completed, the order is established and you will receive a 
       
 			<div class="col-md-4 sp">
 				
-				<div class="box2">
+				
 				<div class="container text-center">
 					
-					<img src="">
+					<img src=""style="width: 200px; height:200px;">
 				
 				</div>
-				</div>
+				
 			
 			</div>
 		
@@ -340,7 +340,7 @@ After the payment is completed, the order is established and you will receive a 
 	
 		<div class="devs">
 
-			<img src="https://www.denofgeek.com/wp-content/uploads/2016/03/best-anime-to-stream.jpg?resize=768%2C432" alt="Girl in a jacket" width="100%" >
+			<img src="https://www.denofgeek.com/wp-content/uploads/2016/03/best-anime-to-stream.jpg?resize=768%2C432" alt="" style="width:1110px; height: 700px; display:inline-block;" >
 		
 		</div>
 		
