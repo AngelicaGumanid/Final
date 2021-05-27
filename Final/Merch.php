@@ -139,7 +139,7 @@
 		
 			<div class="card">
 			
-				<img src="images/pic.PNG" class="card-img-top" alt="...">
+				<img src="images/merch/MerchTshirt.png" class="card-img-top" alt="...">
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -175,7 +175,7 @@
 		
 			<div class="card">
 			
-				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
+				<div class="productx"><img src="images/merch/Nezuko.png" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -211,7 +211,7 @@
 		
 			<div class="card">
 			
-				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
+				<div class="productx"><img src="images/merch/Tanjiro.png" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -247,7 +247,7 @@
 		
 			<div class="card">
 			
-				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
+				<div class="productx"><img src="images/merch/MerchTshirt2.png" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">

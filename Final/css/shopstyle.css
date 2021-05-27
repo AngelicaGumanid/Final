@@ -49,14 +49,14 @@
 
 @media only screen and (min-width : 150px) and (max-width : 780px)
 {
-	{}
+	}
 	.search
 	{
 		width: 95%;
 		margin: 0 auto;
 	}
 
-}
+
 
 
 /* SIDE NAVBAR */
@@ -95,7 +95,7 @@
   margin: 0 auto;
   height: 1400px;
   width: 1105px;
-  background: #transparent;
+  background: transparent;
 }
 
 .sidebar {
