@@ -51,7 +51,7 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto">
+        <div class="navbar-nav ml-auto">
           
 	
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>

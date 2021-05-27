@@ -32,7 +32,7 @@
 	
 		<div>
 			<form class = "form-inline my-2 my-sm-0">
-				<input class = "form-control mr-sm-2" type = "search" placeholder = "Search" aria-label = "Search">
+				<input class = "form-control mr-sm-2" type = "search" placeholder = "Search" aria-label = "Search" style="width: 300px;">
 				<button class = "btn"><i class = "fas fa-search"></i></button>
 			</form>  
 		</div>		
@@ -64,7 +64,7 @@
 			</button>
 
 		<div class = "collapse navbar-collapse" id = "navbarSupportedContent">
-		<div class = "navbar-nav mr-auto">
+		<div class = "navbar-nav ml-auto">
 			
 			<a class = "nav-link" href = "<?php echo 'Homepage.php'; ?>"> Home <span class = "sr-only">(current)</span></a>
 			<a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Shop </a>
