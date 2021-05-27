@@ -15,6 +15,8 @@
 	<link rel = "stylesheet" href = "css/navbarstyle.css">
 	<link rel = "stylesheet" href = "css/footerstyle.css">
 
+	<link rel = "stylesheet" href = "css/homepagestyle.css">
+
 </head>
 
 <!-- Header -->
@@ -75,44 +77,95 @@
 	
 	</nav>
 
-	<div class = "container">
-	<div class = "content">
-		
-		<p> Dagdag ako ng line dito try lang para sa github. </p>
-		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repudiandae sapiente explicabo aperiam veritatis adipisci, omnis debitis sint quaerat soluta necessitatibus, dolore accusamus aut neque ab? Non praesentium maxime perferendis!</p>
-	
-	<div class = "line"></div>
-		
-		<p>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique iusto aspernatur eius a blanditiis eveniet ullam et itaque, esse rem fuga voluptate voluptatibus voluptatum, tempore obcaecati praesentium ad quo sunt.</span>
-			<span>Velit optio quidem qui nam quia eius obcaecati dolor eligendi facere tempore, ratione rem inventore nobis maxime sit reiciendis placeat dolores ad recusandae porro. Omnis rerum similique quo voluptate incidunt!</span>
-		</p>
-		<p>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique iusto aspernatur eius a blanditiis eveniet ullam et itaque, esse rem fuga voluptate voluptatibus voluptatum, tempore obcaecati praesentium ad quo sunt.</span>
-			<span>Velit optio quidem qui nam quia eius obcaecati dolor eligendi facere tempore, ratione rem inventore nobis maxime sit reiciendis placeat dolores ad recusandae porro. Omnis rerum similique quo voluptate incidunt!</span>
-		</p>
+	<!-- Carousel -->
 
-	<div class = "line"></div>
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 		
-		<p>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita nam voluptate sed explicabo, ut adipisci dolore omnis. Facilis veniam natus quae, alias sapiente. Explicabo maxime eligendi maiores quisquam ipsam, omnis!</span>
-			<span>Consequuntur odit, assumenda soluta voluptatibus earum quasi, ipsa est natus quae facilis aliquid sint. Fugiat illum eum quis fuga id totam molestiae, itaque reprehenderit et iusto voluptatum similique facilis doloremque.</span>
-			<span>Pariatur quibusdam nesciunt explicabo ea saepe, at atque aut iste vel quis et, quos nam itaque magni assumenda libero amet corrupti architecto doloremque voluptatem neque doloribus qui non unde. Doloribus.</span>
-			<span>Architecto id, error nobis. Vel quibusdam, eius aut deserunt sed omnis necessitatibus ab iusto eveniet, tenetur tempore a nobis illum quia optio est excepturi adipisci doloribus quidem? Animi, officiis repellendus!</span>
-		</p>
+		<ol class="carousel-indicators">
+			
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		
+		</ol>
+		
+		<div class="carousel-inner">
+		<div class="carousel-item active">
+      
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch.png" alt="First slide">
+		</div>
+    
+		<div class="carousel-item">
+			
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch.png" alt="Second slide">
+		
+		</div>
+    
+		<div class="carousel-item">
+			
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch.png" alt="Third slide">
+		
+		</div>
+		
+		</div>
+  
+			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+  
+			<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+	
+	</div>
 
-	<div class = "line"></div>
-		
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit repudiandae sapiente explicabo aperiam veritatis adipisci, omnis debitis sint quaerat soluta necessitatibus, dolore accusamus aut neque ab? Non praesentium maxime perferendis!</p>
+	<!-- Contents -->
+
+	<div class="container" style = "background-color: #464D51;">
+		<div class="contenttt">
 	
-	<div class="line"></div>
+			<h1> WANT MORE COLLECTIBLES <h1>
+			<h2>VISIT OUR SHOP!</h2>
 		
-		<p>
-			<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique iusto aspernatur eius a blanditiis eveniet ullam et itaque, esse rem fuga voluptate voluptatibus voluptatum, tempore obcaecati praesentium ad quo sunt.</span>
-			<span>Velit optio quidem qui nam quia eius obcaecati dolor eligendi facere tempore, ratione rem inventore nobis maxime sit reiciendis placeat dolores ad recusandae porro. Omnis rerum similique quo voluptate incidunt!</span>
-		</p>
+			<button type="button" style = "background-color: #7C7E82" class="btn btn-lg">CHECK NOW</button>
+
+	<div class="row">
+			
+			<div class="column">
+				
+				<div class ="divv">
+				
+				
+				<h4>Contact Service Team</h4>
+				
+				<p style ="line-height: 5px;"> Ex. </p>
+				<p style ="line-height: 5px;"> Email/Help Center </p>
+				<p style ="line-height: 5px;"> Responds within 1-2 Days </p>
+			
+				</div>
+			
+			</div>
+			
+			<div class="column">
+				
+				<div class ="divv">
+				
+				
+				<h4>Store Contact Details and Number</h4>
+				
+				<p style ="line-height: 5px;"> Ex. </p>
+				<p> Telephone (Weekdays 7 AM to 7 PM, Weekends 9 AM to 6 PM) </p>
+				<p style ="line-height: 5px;"> Call 0288805200 now! </p>
+			
+				</div>
+			
+			</div>
+		
+		</div>
 	
+	</div>
 	</div>
 	</div>
 
