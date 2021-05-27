@@ -172,6 +172,9 @@ body {
   display: flex;
   position: relative;
   overflow: hidden;
+  
+  margin-top: 20px;
+  
 }
 
 .pagination a{

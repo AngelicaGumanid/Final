@@ -269,16 +269,14 @@
 	
 	</div>
 
-	<div class="pagination">
+	<div class="pagination"style="margin-left: 200px;">
 	
-		<a href=""><i class="fas fa-chevron-left"></i></a>
-		<a href="">1</a>
-		<a href="">2</a>
-		<a href="">3</a>
-		<a href="">4</a>
-		<a href="">5</a>
-		<a href="">6</a>
-		<a href=""><i class="fas fa-chevron-right"></i></a>
+		
+		<a href="<?php echo 'Shop1.php'; ?>" style="color:#eb4d4b;">1</a>
+		<a href="<?php echo 'Shop2.php'; ?>">2</a>
+		<a href="<?php echo 'Shop3.php'; ?>">3</a>
+		
+		<a href="<?php echo 'Shop2.php'; ?>"><i class="fas fa-chevron-right"></i></a>
 	
 	<div class="bar"></div>
 	</div>
