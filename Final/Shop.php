@@ -139,7 +139,7 @@
 		<div class="column">
 		<div class="card">
 		
-			<img src="" alt="">
+			<div class="cardimage"><img src="images/product/1.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
     
@@ -149,7 +149,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 2</h3>
+			<div class="cardimage"><img src="images/product/2.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -159,7 +159,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 3</h3>
+			<div class="cardimage"><img src="images/product/3.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -169,7 +169,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 4</h3>
+			<div class="cardimage"><img src="images/product/4.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -184,7 +184,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 1</h3>
+		<div class="cardimage"><img src="images/product/5.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -194,7 +194,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 2</h3>
+		<div class="cardimage"><img src="images/product/6.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -204,7 +204,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 3</h3>
+		<div class="cardimage"><img src="images/product/7.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -214,7 +214,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 4</h3>
+		<div class="cardimage"><img src="images/product/8.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -230,7 +230,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 1</h3>
+		<div class="cardimage"><img src="images/product/9.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -240,7 +240,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 2</h3>
+		<div class="cardimage"><img src="images/product/10.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -250,7 +250,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 3</h3>
+		<div class="cardimage"><img src="images/product/11.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -260,7 +260,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 4</h3>
+		<div class="cardimage"><img src="images/product/12.png" alt=""></div>
 			<p>Some text</p>
 			<p>Soe text</p>
 		
