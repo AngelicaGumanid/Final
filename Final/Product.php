@@ -106,34 +106,272 @@
 						
 					</div>
 					<div class="details col-md-6">
-						<h3 class="product-title">men's shoes fashion</h3>
-						<div class="rating">
-							<div class="stars">
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star checked"></span>
-								<span class="fa fa-star"></span>
-								<span class="fa fa-star"></span>
-							</div>
-							<span class="review-no">41 reviews</span>
-						</div>
-						<p class="product-description">Suspendisse quos? Tempus cras iure temporibus? Eu laudantium cubilia sem sem! Repudiandae et! Massa senectus enim minim sociosqu delectus posuere.</p>
-						<h4 class="price">current price: <span>$180</span></h4>
-						<p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
-						<h5 class="sizes">sizes:
-							<span class="size" data-toggle="tooltip" title="small">s</span>
-							<span class="size" data-toggle="tooltip" title="medium">m</span>
-							<span class="size" data-toggle="tooltip" title="large">l</span>
-							<span class="size" data-toggle="tooltip" title="xtra large">xl</span>
-						</h5>
-						<h5 class="colors">colors:
-							<span class="color orange not-available" data-toggle="tooltip" title="Not In store"></span>
-							<span class="color green"></span>
-							<span class="color blue"></span>
-						</h5>
-						<div class="action">
-							<button class="add-to-cart btn btn-default" type="button">add to cart</button>
-							<button class="like btn btn-default" type="button"><span class="fa fa-heart"></span></button>
+                    <div class = "container" style = "text-align:left;">
+
+		    		        
+<h3 class="product-title">[Status]</h3>
+<h1 class="product-title">PRODUCT NAME</h1>
+<h3 class="product-title">Product Description</h3> 
+<h3 class="product-title">Available Stocks</h3>
+<h3 class="price">P00.00</h3>
+<h3 class="price">Rating | Number of Ratings</h3>
+
+<p class="product-description">keme keme keme keme keme keme keme keme keme keme keme keme</p>
+<h3 class="Shop Vouchers">Shop Vouchers</h3>
+<br>
+<h3 class="Shop Vouchers">Shipping</h3>
+
+<div class="container">
+<div class="row">
+<div class="col-lg-5">
+<div class="input-group">
+<span class="input-group-btn">
+<button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+      <span class="glyphicon glyphicon-minus"></span>                                        </button>
+        </span>
+        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="10" min="1" max="100">
+        <span class="input-group-btn">
+         <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+        <span class="glyphicon glyphicon-plus"></span>
+            </button>
+        </span>
+    </div>
+</div>
+</div>
+</div>
+
+<p class="font-italic">You have reached the maximum quantity available for this item</p>
+
+
+<br><br>
+
+
+
+
+
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart
+</a>
+</p> 
+
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-heart"></span> Add to Wishlist
+</a>
+</p> 
+
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-shopping-cart"></span> Buy Now
+</a>
+</p> 
+
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-message"></span> Message
+</a>
+</p> 
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-message"></span> Need Help?
+</a>
+</p> 
+
+<br><br>
+<h1>Product Rating</h1>
+<div class = "container">
+<div class="btn-group">
+<a href="#!" class="btn btn-primary ">All</a>
+<a href="#!" class="btn btn-primary">5 Stars</a>
+<a href="#!" class="btn btn-primary">4 Stars</a>
+<a href="#!" class="btn btn-primary">3 Stars</a>
+<a href="#!" class="btn btn-primary">2 Stars</a>
+<a href="#!" class="btn btn-primary">1 Stars</a>
+<a href="#!" class="btn btn-primary">No Rating</a>
+</div>
+</div>
+<br><br>
+
+<div class="container">
+<div class="row">
+<div class="review-block">
+<div class="row">
+<div class="col-sm-2">
+<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
+
+
+</div>
+
+<div class="col-sm-7">
+<div class="review-block-name"><a href="#">Username|*U*******</a></div>
+<div class="review-block-title">this was nice in buy</div>
+<div class="review-block-description">this was nice in buy. this was nice in buy. this was nice in buy. this was nice in buy this was nice in buy this was nice in buy this was nice in buy this was nice in buy</div>
+<img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+<div class="review-block-date">January 29, 2016<br/>1 day ago</div>
+
+</div>
+</div>
+<hr/>
+</div>
+</div>
+</div>
+
+<h1>YOU MAY ALSO LIKE</h1>
+
+
+<div class = "container">
+<div class = "center">
+
+<div class="row">
+<div class="column">
+
+<div class="card">
+
+<img src="images/sample.PNG" class="card-img-top" alt="...">
+
+<div class="container-fluid">
+<div class="row">
+
+<div>
+
+<h5 class="card-title">STATUS</h5>
+
+</div>
+
+<div class="text">
+
+<p class="card-text text">Product Name Product Name</p>
+
+</div>
+
+<div class="text-right bottom">
+
+<a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
+<a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
+<a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="column">
+
+<div class="card">
+
+<img src="images/sample.PNG" class="card-img-top" alt="...">
+
+<div class="container-fluid">
+<div class="row">
+
+<div>
+
+<h5 class="card-title">STATUS</h5>
+
+</div>
+
+<div class="text">
+
+<p class="card-text text">Product Name Product Name</p>
+
+</div>
+
+<div class="text-right bottom">
+
+<a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
+<a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
+<a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="column">
+
+<div class="card">
+
+<img src="images/sample.PNG" class="card-img-top" alt="...">
+
+<div class="container-fluid">
+<div class="row">
+
+<div>
+
+<h5 class="card-title">STATUS</h5>
+
+</div>
+
+<div class="text">
+
+<p class="card-text text">Product Name Product Name</p>
+
+</div>
+
+<div class="text-right bottom">
+
+<a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
+<a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
+<a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="column">
+
+<div class="card">
+
+<img src="images/sample.PNG" class="card-img-top" alt="...">
+
+<div class="container-fluid">
+<div class="row">
+
+<div>
+
+<h5 class="card-title">STATUS</h5>
+
+</div>
+
+<div class="text">
+
+<p class="card-text text">Product Name Product Name</p>
+
+</div>
+
+<div class="text-right bottom">
+
+<a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
+<a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
+<a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
 						</div>
 					</div>
 				</div>
@@ -142,6 +380,7 @@
 	</div>
     
 
+    <br><br><br>
 <!--footer start-->
 <footer>
 	
