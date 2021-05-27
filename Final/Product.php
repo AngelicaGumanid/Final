@@ -1,7 +1,3 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
 <!DOCTYPE html>
 
 <html>
@@ -24,10 +20,6 @@
     <link rel = "stylesheet" href = "js/product.js">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -90,305 +82,305 @@
 	</nav>
 
     <!--PRODUCT-->
-    <div class= container>
-            <button class = "btn"><i class = "fas fa-cart-plus"></i></button>
-            <a class="link-secondary" href="#">Continue Shopping</a>
 
-           
-
-			    <div class="container-fliud">
-				    <div class="wrapper row">
-					    <div class="preview col-md-6">
+    <div class="container">
+		<div class="card">
+			<div class="container-fliud">
+				<div class="wrapper row">
+					<div class="preview col-md-6">
 						
 						<div class="preview-pic tab-content">
 						  <div class="tab-pane active" id="pic-1"><img src="http://placekitten.com/400/252" /></div>
-
-                          <ul class="preview-thumbnail nav nav-tabs">
+						  <div class="tab-pane" id="pic-2"><img src="http://placekitten.com/400/252" /></div>
+						  <div class="tab-pane" id="pic-3"><img src="http://placekitten.com/400/252" /></div>
+						  <div class="tab-pane" id="pic-4"><img src="http://placekitten.com/400/252" /></div>
+						  <div class="tab-pane" id="pic-5"><img src="http://placekitten.com/400/252" /></div>
+						</div>
+						<ul class="preview-thumbnail nav nav-tabs">
 						  <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-2" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-3" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-4" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						  <li><a data-target="#pic-5" data-toggle="tab"><img src="http://placekitten.com/200/126" /></a></li>
 						</ul>
-                          <div>
-                <h4 class="product-title">Share:</h4>
-				<li class="round-btn btn-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-				<li class="round-btn btn-linkedin"><a href="#"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-				<li class="round-btn btn-twitter"><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-				<li class="round-btn btn-instagram"><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-				<li class="round-btn btn-whatsapp"><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
-				<li class="round-btn btn-envelop"><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-				</li>
-			
-			</div>
-					</div>	
-				</div>
-
-                <div class="details col-md-6">
-		    		<h3 class="product-title">[Status]</h3>
-                    <h1 class="product-title">PRODUCT NAME</h1>
-                    <h3 class="product-title">Product Description</h3> 
-                    <h3 class="product-title">Available Stocks</h3>
-                    <h3 class="price">P00.00</h3>
-                    <h3 class="price">Rating | Number of Ratings</h3>
-
-                        <p class="product-description">keme keme keme keme keme keme keme keme keme keme keme keme</p>
-						<h3 class="Shop Vouchers">Shop Vouchers</h3>
-                        <br>
-                        <h3 class="Shop Vouchers">Shipping</h3>
-
-            <div class="container">
-	            <div class="row">
-                        <div class="col-lg-5">
-                            <div class="input-group">
-                            <span class="input-group-btn">
-                            <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
-                                  <span class="glyphicon glyphicon-minus"></span>                                        </button>
-                                    </span>
-                                    <input type="text" id="quantity" name="quantity" class="form-control input-number" value="10" min="1" max="100">
-                                    <span class="input-group-btn">
-                                     <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
-                                    <span class="glyphicon glyphicon-plus"></span>
-                                        </button>
-                                    </span>
-                                </div>
-                        </div>
-	            </div>
-        </div>
-
-                        <p class="font-italic">You have reached the maximum quantity available for this item</p>
-
 						
-    <br><br>
+					</div>
+					<div class="details col-md-6">
+                    <div class = "container" style = "text-align:left;">
 
-    
-    
+		    		        
+<h3 class="product-title">[Status]</h3>
+<h1 class="product-title">PRODUCT NAME</h1>
+<h3 class="product-title">Product Description</h3> 
+<h3 class="product-title">Available Stocks</h3>
+<h3 class="price">P00.00</h3>
+<h3 class="price">Rating | Number of Ratings</h3>
 
-    
-        <p>
-            <a href="#" class="btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart
-            </a>
-        </p> 
+<p class="product-description">keme keme keme keme keme keme keme keme keme keme keme keme</p>
+<h3 class="Shop Vouchers">Shop Vouchers</h3>
+<br>
+<h3 class="Shop Vouchers">Shipping</h3>
 
-        <p>
-            <a href="#" class="btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-heart"></span> Add to Wishlist
-            </a>
-      </p> 
+<div class="container">
+<div class="row">
+<div class="col-lg-5">
+<div class="input-group">
+<span class="input-group-btn">
+<button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+      <span class="glyphicon glyphicon-minus"></span>                                        </button>
+        </span>
+        <input type="text" id="quantity" name="quantity" class="form-control input-number" value="10" min="1" max="100">
+        <span class="input-group-btn">
+         <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+        <span class="glyphicon glyphicon-plus"></span>
+            </button>
+        </span>
+    </div>
+</div>
+</div>
+</div>
 
-      <p>
-            <a href="#" class="btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-shopping-cart"></span> Buy Now
-            </a>
-        </p> 
+<p class="font-italic">You have reached the maximum quantity available for this item</p>
 
-        <p>
-            <a href="#" class="btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-message"></span> Message
-            </a>
-        </p> 
-        <p>
-            <a href="#" class="btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-message"></span> Need Help?
-            </a>
-        </p> 
 
+<br><br>
+
+
+
+
+
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-shopping-cart"></span> Add to Cart
+</a>
+</p> 
+
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-heart"></span> Add to Wishlist
+</a>
+</p> 
+
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-shopping-cart"></span> Buy Now
+</a>
+</p> 
+
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-message"></span> Message
+</a>
+</p> 
+<p>
+<a href="#" class="btn btn-info btn-lg">
+<span class="glyphicon glyphicon-message"></span> Need Help?
+</a>
+</p> 
 
 <br><br>
 <h1>Product Rating</h1>
-                <div class = "container">
-                <div class="btn-group">
-                        <a href="#!" class="btn btn-primary ">All</a>
-                        <a href="#!" class="btn btn-primary">5 Stars</a>
-                        <a href="#!" class="btn btn-primary">4 Stars</a>
-                        <a href="#!" class="btn btn-primary">3 Stars</a>
-                        <a href="#!" class="btn btn-primary">2 Stars</a>
-                        <a href="#!" class="btn btn-primary">1 Stars</a>
-                        <a href="#!" class="btn btn-primary">No Rating</a>
-                    </div>
-                    </div>
-                    <br><br>
+<div class = "container">
+<div class="btn-group">
+<a href="#!" class="btn btn-primary ">All</a>
+<a href="#!" class="btn btn-primary">5 Stars</a>
+<a href="#!" class="btn btn-primary">4 Stars</a>
+<a href="#!" class="btn btn-primary">3 Stars</a>
+<a href="#!" class="btn btn-primary">2 Stars</a>
+<a href="#!" class="btn btn-primary">1 Stars</a>
+<a href="#!" class="btn btn-primary">No Rating</a>
+</div>
+</div>
+<br><br>
 
-    <div class="container">
-		<div class="row">
-				<div class="review-block">
-					<div class="row">
-						<div class="col-sm-2">
-							<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
-							
-							
-						</div>
-                        
-						<div class="col-sm-7">
-                        <div class="review-block-name"><a href="#">Username|*U*******</a></div>
-							<div class="review-block-title">this was nice in buy</div>
-							<div class="review-block-description">this was nice in buy. this was nice in buy. this was nice in buy. this was nice in buy this was nice in buy this was nice in buy this was nice in buy this was nice in buy</div>
-                        <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-                            <div class="review-block-date">January 29, 2016<br/>1 day ago</div>
+<div class="container">
+<div class="row">
+<div class="review-block">
+<div class="row">
+<div class="col-sm-2">
+<img src="http://dummyimage.com/60x60/666/ffffff&text=No+Image" class="img-rounded">
 
-						</div>
-					</div>
-				<hr/>
 
-                
+</div>
 
-    <h1>YOU MAY ALSO LIKE</h1>
+<div class="col-sm-7">
+<div class="review-block-name"><a href="#">Username|*U*******</a></div>
+<div class="review-block-title">this was nice in buy</div>
+<div class="review-block-description">this was nice in buy. this was nice in buy. this was nice in buy. this was nice in buy this was nice in buy this was nice in buy this was nice in buy this was nice in buy</div>
+<img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+<div class="review-block-date">January 29, 2016<br/>1 day ago</div>
+
+</div>
+</div>
+<hr/>
+</div>
+</div>
+</div>
+
+<h1>YOU MAY ALSO LIKE</h1>
+
 
 <div class = "container">
 <div class = "center">
-    
-    <div class="row">
-    <div class="column">
-    
-        <div class="card">
-        
-            <img src="images/sample.PNG" class="card-img-top" alt="...">
-            
-            <div class="container-fluid">
-            <div class="row">
-            
-            <div>
-            
-                <h5 class="card-title">STATUS</h5>
-            
-            </div>
-            
-            <div class="text">
-                
-                <p class="card-text text">Product Name Product Name</p>
-            
-            </div>
-            
-            <div class="text-right bottom">
-                
-                <a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
-                <a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
-                <a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
-            
-            </div>
-            
-            </div>
-            </div>
-    
-        </div>
-    
-    </div>
 
-    <div class="column">
-    
-        <div class="card">
-        
-            <img src="images/sample.PNG" class="card-img-top" alt="...">
-            
-            <div class="container-fluid">
-            <div class="row">
-            
-            <div>
-            
-                <h5 class="card-title">STATUS</h5>
-            
-            </div>
-            
-            <div class="text">
-                
-                <p class="card-text text">Product Name Product Name</p>
-            
-            </div>
-            
-            <div class="text-right bottom">
-                
-                <a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
-                <a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
-                <a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
-            
-            </div>
-            
-            </div>
-            </div>
-    
-        </div>
-    
-    </div>
+<div class="row">
+<div class="column">
 
-    <div class="column">
-    
-        <div class="card">
-        
-            <img src="images/sample.PNG" class="card-img-top" alt="...">
-            
-            <div class="container-fluid">
-            <div class="row">
-            
-            <div>
-            
-                <h5 class="card-title">STATUS</h5>
-            
-            </div>
-            
-            <div class="text">
-                
-                <p class="card-text text">Product Name Product Name</p>
-            
-            </div>
-            
-            <div class="text-right bottom">
-                
-                <a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
-                <a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
-                <a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
-            
-            </div>
-            
-            </div>
-            </div>
-    
-        </div>
-    
-    </div>
+<div class="card">
 
-    <div class="column">
+<img src="images/sample.PNG" class="card-img-top" alt="...">
+
+<div class="container-fluid">
+<div class="row">
+
+<div>
+
+<h5 class="card-title">STATUS</h5>
+
+</div>
+
+<div class="text">
+
+<p class="card-text text">Product Name Product Name</p>
+
+</div>
+
+<div class="text-right bottom">
+
+<a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
+<a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
+<a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="column">
+
+<div class="card">
+
+<img src="images/sample.PNG" class="card-img-top" alt="...">
+
+<div class="container-fluid">
+<div class="row">
+
+<div>
+
+<h5 class="card-title">STATUS</h5>
+
+</div>
+
+<div class="text">
+
+<p class="card-text text">Product Name Product Name</p>
+
+</div>
+
+<div class="text-right bottom">
+
+<a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
+<a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
+<a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="column">
+
+<div class="card">
+
+<img src="images/sample.PNG" class="card-img-top" alt="...">
+
+<div class="container-fluid">
+<div class="row">
+
+<div>
+
+<h5 class="card-title">STATUS</h5>
+
+</div>
+
+<div class="text">
+
+<p class="card-text text">Product Name Product Name</p>
+
+</div>
+
+<div class="text-right bottom">
+
+<a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
+<a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
+<a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="column">
+
+<div class="card">
+
+<img src="images/sample.PNG" class="card-img-top" alt="...">
+
+<div class="container-fluid">
+<div class="row">
+
+<div>
+
+<h5 class="card-title">STATUS</h5>
+
+</div>
+
+<div class="text">
+
+<p class="card-text text">Product Name Product Name</p>
+
+</div>
+
+<div class="text-right bottom">
+
+<a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
+<a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
+<a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
     
-        <div class="card">
-        
-            <img src="images/sample.PNG" class="card-img-top" alt="...">
-            
-            <div class="container-fluid">
-            <div class="row">
-            
-            <div>
-            
-                <h5 class="card-title">STATUS</h5>
-            
-            </div>
-            
-            <div class="text">
-                
-                <p class="card-text text">Product Name Product Name</p>
-            
-            </div>
-            
-            <div class="text-right bottom">
-                
-                <a href = "<?php echo 'Cart.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="cart"> </a>
-                <a href = "<?php echo 'Heart.php'; ?>" ><img src="images/like.PNG" class="image position" alt="heart"> </a>
-                <a href = "<?php echo 'Message.php'; ?>" ><img src="images/cart.PNG" class="image position" alt="message"> </a>
-            
-            </div>
-            
-            </div>
-            </div>
-    
-        </div>
-    
-    </div>
-    </div>
 
-
-
-<br><br>
-
-
+    <br><br><br>
 <!--footer start-->
 <footer>
 	
