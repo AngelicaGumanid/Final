@@ -317,7 +317,7 @@
 		<div class="column">
 		<div class="card">
 		
-			<h3>Card 1</h3>
+		<div class="cardimage"><img src="images/merch/MerchTshirt.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 	
@@ -327,7 +327,7 @@
 		<div class="column">
 		<div class="card">
 		
-			<h3>Card 2</h3>
+		<div class="cardimage"><img src="images/merch/Tanjiro.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -337,7 +337,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 3</h3>
+		<div class="cardimage"><img src="images/merch/Nezuko.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -347,7 +347,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 4</h3>
+		<div class="cardimage"><img src="images/merch/MerchTshirt2.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
