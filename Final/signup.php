@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="css/logsign.css">
     
 </head>
-<body style="background-color:black;">
+<body style="background-image: url('images/carousel/bg5.png')">
      <form action="checking.php" method="post">
      	<h2>SIGN UP</h2>
      	<?php if (isset($_GET['error'])) { ?>
