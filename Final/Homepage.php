@@ -92,18 +92,18 @@
 		<div class="carousel-inner">
 		<div class="carousel-item active">
       
-			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch.png" alt="First slide">
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch1.png" alt="First slide">
 		</div>
     
 		<div class="carousel-item">
 			
-			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch.png" alt="Second slide">
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch1.png" alt="Second slide">
 		
 		</div>
     
 		<div class="carousel-item">
 			
-			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch.png" alt="Third slide">
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch1.png" alt="Third slide">
 		
 		</div>
 		
