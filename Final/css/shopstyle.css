@@ -49,14 +49,14 @@
 
 @media only screen and (min-width : 150px) and (max-width : 780px)
 {
-	{}
+	}
 	.search
 	{
 		width: 95%;
 		margin: 0 auto;
 	}
 
-}
+
 
 
 /* SIDE NAVBAR */
@@ -95,7 +95,7 @@
   margin: 0 auto;
   height: 1400px;
   width: 1105px;
-  background: #transparent;
+  background: transparent;
 }
 
 .sidebar {
@@ -159,6 +159,11 @@ body {
   text-align: center;
   background-color: #f1f1f1;
 }
+/* CARD IMAGE STYLE */
+.cardimg img{
+  width: 100px;
+  height: 100px;
+}
 
 /* PAGINATION */
 
@@ -167,6 +172,9 @@ body {
   display: flex;
   position: relative;
   overflow: hidden;
+  
+  margin-top: 20px;
+  
 }
 
 .pagination a{

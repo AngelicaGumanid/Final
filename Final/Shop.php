@@ -32,7 +32,7 @@
 	
 		<div>
 			<form class = "form-inline my-2 my-sm-0">
-				<input class = "form-control mr-sm-2" type = "search" placeholder = "Search" aria-label = "Search">
+				<input class = "form-control mr-sm-2" type = "search" placeholder = "Search" aria-label = "Search" style="width: 300px;">
 				<button class = "btn"><i class = "fas fa-search"></i></button>
 			</form>  
 		</div>		
@@ -64,7 +64,7 @@
 			</button>
 
 		<div class = "collapse navbar-collapse" id = "navbarSupportedContent">
-		<div class = "navbar-nav mr-auto">
+		<div class = "navbar-nav ml-auto">
 			
 			<a class = "nav-link" href = "<?php echo 'Homepage.php'; ?>"> Home <span class = "sr-only">(current)</span></a>
 			<a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Shop </a>
@@ -139,7 +139,7 @@
 		<div class="column">
 		<div class="card">
 		
-			<h3>Card 1</h3>
+			<div class="cardimage"><img src="images/product/1.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
     
@@ -149,7 +149,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 2</h3>
+			<div class="cardimage"><img src="images/product/2.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -159,7 +159,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 3</h3>
+			<div class="cardimage"><img src="images/product/3.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -169,7 +169,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 4</h3>
+			<div class="cardimage"><img src="images/product/4.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -184,7 +184,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 1</h3>
+		<div class="cardimage"><img src="images/product/5.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -194,7 +194,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 2</h3>
+		<div class="cardimage"><img src="images/product/6.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -204,7 +204,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 3</h3>
+		<div class="cardimage"><img src="images/product/7.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -214,7 +214,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 4</h3>
+		<div class="cardimage"><img src="images/product/8.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -230,7 +230,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 1</h3>
+		<div class="cardimage"><img src="images/product/9.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -240,7 +240,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 2</h3>
+		<div class="cardimage"><img src="images/product/10.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -250,7 +250,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 3</h3>
+		<div class="cardimage"><img src="images/product/11.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -260,7 +260,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 4</h3>
+		<div class="cardimage"><img src="images/product/12.png" alt=""></div>
 			<p>Some text</p>
 			<p>Soe text</p>
 		
@@ -269,16 +269,14 @@
 	
 	</div>
 
-	<div class="pagination">
+	<div class="pagination"style="margin-left: 200px;">
 	
-		<a href=""><i class="fas fa-chevron-left"></i></a>
-		<a href="">1</a>
-		<a href="">2</a>
-		<a href="">3</a>
-		<a href="">4</a>
-		<a href="">5</a>
-		<a href="">6</a>
-		<a href=""><i class="fas fa-chevron-right"></i></a>
+		
+		<a href="<?php echo 'Shop1.php'; ?>" style="color:#eb4d4b;">1</a>
+		<a href="<?php echo 'Shop2.php'; ?>">2</a>
+		<a href="<?php echo 'Shop3.php'; ?>">3</a>
+		
+		<a href="<?php echo 'Shop2.php'; ?>"><i class="fas fa-chevron-right"></i></a>
 	
 	<div class="bar"></div>
 	</div>
@@ -317,7 +315,7 @@
 		<div class="column">
 		<div class="card">
 		
-			<h3>Card 1</h3>
+		<div class="cardimage"><img src="images/merch/MerchTshirt.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 	
@@ -327,7 +325,7 @@
 		<div class="column">
 		<div class="card">
 		
-			<h3>Card 2</h3>
+		<div class="cardimage"><img src="images/merch/Tanjiro.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -337,7 +335,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 3</h3>
+		<div class="cardimage"><img src="images/merch/Nezuko.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		
@@ -347,7 +345,7 @@
 		<div class="column">
 		<div class="card">
 			
-			<h3>Card 4</h3>
+		<div class="cardimage"><img src="images/merch/MerchTshirt2.png" alt=""></div>
 			<p>Some text</p>
 			<p>Some text</p>
 		

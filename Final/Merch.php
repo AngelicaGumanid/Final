@@ -71,7 +71,7 @@
 			</button>
 
 		<div class = "collapse navbar-collapse" id = "navbarSupportedContent">
-		<div class = "navbar-nav mr-auto">
+		<div class = "navbar-nav ml-auto">
 			
 			<a class = "nav-link" href = "<?php echo 'Homepage.php'; ?>"> Home <span class = "sr-only">(current)</span></a>
 			<a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Shop </a>
@@ -100,18 +100,18 @@
 		<div class="carousel-inner">
 		<div class="carousel-item active">
       
-			<img style = "height: 490px" class="d-block w-100" src="images/works/1.jpg" alt="First slide">
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch1.png" alt="First slide">
 		</div>
     
 		<div class="carousel-item">
 			
-			<img style = "height: 490px" class="d-block w-100" src="images/works/2.jpg" alt="Second slide">
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch1.png" alt="Second slide">
 		
 		</div>
     
 		<div class="carousel-item">
 			
-			<img style = "height: 490px" class="d-block w-100" src="images/works/3.jpg" alt="Third slide">
+			<img style = "height: 490px" class="d-block w-100" src="images/banner/bannerMerch1.png" alt="Third slide">
 		
 		</div>
 		
@@ -139,7 +139,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<img src="images/merch/MerchTshirt.png" class="card-img-top" alt="...">
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -175,7 +175,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/merch/Nezuko.png" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -211,7 +211,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/merch/Tanjiro.png" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -247,7 +247,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/merch/MerchTshirt2.png" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -289,7 +289,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -325,7 +325,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -361,7 +361,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -397,7 +397,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -439,7 +439,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -475,7 +475,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -511,7 +511,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">
@@ -547,7 +547,7 @@
 		
 			<div class="card">
 			
-				<img src="images/sample.PNG" class="card-img-top" alt="...">
+				<div class="productx"><img src="images/sample.PNG" class="card-img-top" alt="..."></div>
 				
 				<div class="container-fluid">
 				<div class="row">

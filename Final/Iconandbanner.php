@@ -62,7 +62,7 @@
 			</button>
 
 		<div class = "collapse navbar-collapse" id = "navbarSupportedContent">
-		<div class = "navbar-nav mr-auto">
+		<div class = "navbar-nav ml-auto">
 			
 			<a class = "nav-link" href = "<?php echo 'Homepage.php'; ?>"> Home <span class = "sr-only">(current)</span></a>
 			<a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Shop </a>

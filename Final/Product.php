@@ -10,13 +10,14 @@
 		<link rel = "stylesheet" href = "css/navbarstyle.css">
 		<link rel = "stylesheet" href = "css/footerstyle.css">
 		
-    <!---product--->
+    <!---TRY--->
 		<link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
 		<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js'></script>
 		<link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css'>
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 		<link rel = "stylesheet" href = "css/productstyle.css">
- 
+    <link rel = "stylesheet" href = "css/merchstyle.css">
+  
 	</head>
 
 	<!-- Header -->
@@ -201,6 +202,7 @@
           </div>
        </div>
      </div>
+            <h3>YOU MAY ALSO LIKE</h3>
      <div class= "container">
         <div class="column">
 		    <div class="card">
@@ -208,7 +210,7 @@
 				<div class="container-fluid">
 				<div class="row">
 				<div>
-					<h5 class="card-title">YOU MAY ALSO LIKE</h5>
+          <h5 class="card-title">STATUS</h5>
 				</div>
 				<div class="text">
 					<p class="card-text text">Product Name Product Name</p>
@@ -228,7 +230,7 @@
 				<div class="container-fluid">
 				<div class="row">
 				<div>
-					<h5 class="card-title">YOU MAY ALSO LIKE</h5>
+          <h5 class="card-title">STATUS</h5>
 				</div>
 				<div class="text">
 					<p class="card-text text">Product Name Product Name</p>
@@ -248,7 +250,7 @@
 				<div class="container-fluid">
 				<div class="row">
 				<div>
-					<h5 class="card-title">YOU MAY ALSO LIKE</h5>
+          <h5 class="card-title">STATUS</h5>
 				</div>
 				<div class="text">
 					<p class="card-text text">Product Name Product Name</p>
@@ -262,13 +264,14 @@
 			</div>
 		  </div>
 		</div>
+ 
         <div class="column">
 		    <div class="card">
 			  <img src="images/sample.PNG" class="card-img-top" alt="...">
 				<div class="container-fluid">
 				<div class="row">
 				<div>
-					<h5 class="card-title">YOU MAY ALSO LIKE</h5>
+					<h5 class="card-title">STATUS</h5>
 				</div>
 				<div class="text">
 					<p class="card-text text">Product Name Product Name</p>
@@ -282,13 +285,14 @@
 			</div>
 		  </div>
 		</div>
-      </div>
-    </div>
+   </div>
   </div>
+ </div>
+</div>
 </div>
 
-<br><br><br><br><br><br><br><br><br><br>
 
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
     <!--footer start-->
     <footer>
       <div class="footer-wrap">

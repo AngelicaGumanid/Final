@@ -62,7 +62,7 @@
 			</button>
 
 		<div class = "collapse navbar-collapse" id = "navbarSupportedContent">
-		<div class = "navbar-nav mr-auto">
+		<div class = "navbar-nav ml-auto">
 			
 			<a class = "nav-link" href = "<?php echo 'Homepage.php'; ?>"> Home <span class = "sr-only">(current)</span></a>
 			<a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Shop </a>
@@ -120,13 +120,13 @@
               <form action="/action_page.php">
                   
                   <label for="fname">First Name</label>
-                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
-  
+                  <input type="text" id="fname" name="firstname" placeholder="Your first name.." style=" width:400px;">
+				 	 <br>
                   <label for="lname">Last Name</label>
-                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-  
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name.."style=" width:400px;">
+					<br>
                   <label for="subject">Message</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px; width:1000px;"></textarea>
   
                   <input type="submit" value="Submit">
               

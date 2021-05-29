@@ -36,7 +36,7 @@
   margin: 0 auto;
   height: 1400px;
   width: 1105px;
-  background: #transparent;
+  background: transparent;
 }
 
 .sidebar {
@@ -85,7 +85,7 @@
 hr.line {
   border-top: 1px dotted  #000000;
 }
-/fORM/
+/*fORM*/
 
 input[type=text], select, textarea {
   width: 100%;
@@ -108,7 +108,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  color: #000000;
 }
 
 .recbox{
