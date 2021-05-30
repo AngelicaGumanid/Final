@@ -4,7 +4,7 @@
 
 <head>
 	
-	<title> TAC Admin Order </title>
+	<title> TAC Admin Product </title>
 	<link rel = "icon" type = "image/logo.png" href = "images/logo.png" sizes = "1000x1000"/>
 
 	<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
@@ -82,8 +82,8 @@
     <div class="top">
         <div class="row">
             <div class="col-sm-11 mt-5">
-                <h1>Order</h1>  
-                <p>00 orders found</p>
+                <h1>Product</h1>  
+                <p>00 total product</p>
             </div>
             <div class="col-sm-1 mt-5">
                 <i class="fa fa-bell" aria-hidden="true"></i>
@@ -98,10 +98,10 @@
 		<tr>
 		<th scope="col" width="10">ID</th>
   		<th scope="col" width="100">Name</th>
-  		<th scope="col" width="270">Address</th>
+  		<th scope="col" width="270">Figure Line</th>
         <th scope="col" width="120">Date</th>
-  		<th scope="col" width="200">Amount</th>
-          <th scope="col" width="120">Status</th>
+  		<th scope="col" width="200">Price</th>
+          <th scope="col" width="300">Quantity</th>
   		<th scope="col" width="200" class="text-right">Action</th>
 		</tr>
 	</thead>
@@ -132,7 +132,7 @@
          <div class="def-number-input number-input safari_only mb-0 w-100">
 		 		
 				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">User Address</small> 
+				<small class="text-muted font-italic">Product Description</small> 
 				</div>
             </div>
     </div>
@@ -162,9 +162,17 @@
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
 		 		
+		 	<div class="def-number-input number-input safari_only mb-0 w-100">
+		 		<button title="Less" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Less Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+          		<input class="quantity" min="0" name="quantity" value="1" type="number" style="width:120px;">
+                <button title="Add" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Add Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+				<br>
 				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">Completed</small> 
+				<small class="text-muted font-italic">(00 available stocks)</small> 
 				</div>
+            </div>
             </div>
     </div>
 	</div>
@@ -202,7 +210,7 @@
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
             <div class="ml-0 mt-1">
-				<small class="text-muted font-italic">User Address</small> 
+				<small class="text-muted font-italic">Product Description</small> 
 			</div>
         </div>
     </div>
@@ -232,8 +240,15 @@
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
 		 		
+		 	<div class="def-number-input number-input safari_only mb-0 w-100">
+		 		<button title="Less" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Less Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+          		<input class="quantity" min="0" name="quantity" value="1" type="number" style="width:120px;">
+                <button title="Add" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Add Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+				<br>
 				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">Completed</small> 
+				<small class="text-muted font-italic">(00 available stocks)</small> 
 				</div>
             </div>
     </div>
@@ -272,7 +287,7 @@
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
             <div class="ml-0 mt-1">
-				<small class="text-muted font-italic">User Address</small> 
+				<small class="text-muted font-italic">Product Description</small> 
 			</div>
         </div>
     </div>
@@ -294,7 +309,7 @@
 		<div class="price-wrap"> 
 			<var class="price">PHP 00.00</var> 
 			<br>
-			<small class="text-muted">(PHP00.00 each)</small> 
+			<small class="text-muted">(PHP00.00 each)</small>
 		</div>
 		<!--Price-->
 		</td>
@@ -302,8 +317,15 @@
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
 		 		
+		 	<div class="def-number-input number-input safari_only mb-0 w-100">
+		 		<button title="Less" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Less Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
+                class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
+          		<input class="quantity" min="0" name="quantity" value="1" type="number" style="width:120px;">
+                <button title="Add" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Add Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+                class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
+				<br>
 				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">Completed</small> 
+				<small class="text-muted font-italic">(00 available stocks)</small> 
 				</div>
             </div>
     </div>
