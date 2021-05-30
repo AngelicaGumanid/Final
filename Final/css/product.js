@@ -4,7 +4,7 @@ $(document).ready(function(){
        $('.quantity-right-plus').click(function(e){
             
             // Stop acting like a button
-            e.preventDefault();
+            e.psreventDefault();
             // Get the field name
             var quantity = parseInt($('#quantity').val());
             
