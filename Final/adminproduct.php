@@ -16,8 +16,8 @@
 	<link rel = "stylesheet" href = "css/footerstyle.css">
 
 	<link rel = "stylesheet" href = "css/homepagestyle.css">
-<!-- ADMIN ORDER -->
-    
+<!-- ADMIN PRODUCT -->
+	<link rel = "stylesheet" href = "css/sidebarstyle.css">
 </head>
 
 <!-- Header -->
@@ -54,40 +54,123 @@
 
 <body>
 
-<!-- Navigation Bar -->
-
-	<nav class = "navbar navbar-expand-lg navbar-light navbar-custom sticky-top">
-		
-		<a style = "margin-left: 20px;" class = "navbar-brand" href = "<?php echo 'Homepage.php'; ?>"> TORI ANIME COLLECTIBLES </a>
-			<button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "#navbarSupportedContent"aria-controls = "navbarSupportedContent" aria-expanded = "false" aria-label = "Toggle navigation">
-				<span class = "navbar-toggler-icon"></span>
-			</button>
-
-		<div class = "collapse navbar-collapse" id = "navbarSupportedContent">
-		<div class = "navbar-nav ml-auto">
-			
-			<a class = "nav-link" href = "<?php echo 'Homepage.php'; ?>"> Home <span class = "sr-only">(current)</span></a>
-			<a class = "nav-link" href = "<?php echo 'Shop.php'; ?>"> Shop </a>
-			<a class = "nav-link" href = "<?php echo 'About.php'; ?>"> About </a>
-			<a class = "nav-link" href = "<?php echo 'Merch.php'; ?>"> Merch </a>
-			<a class = "nav-link" href = "<?php echo 'Nau.php'; ?>"> News and Updates </a>
-			<a class = "nav-link" href = "<?php echo 'Helpcenter.php'; ?>"> Help Center </a>
-			
-		</div>
-		</div>
-	
-	</nav>
 <!--Start-->
+<div class="row">
+		<nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>Admin</h3>
+            </div>
+            <ul>
+                <li>
+                    <a href="<?php echo 'adminorder.php'; ?>">Orders</a>
+                </li>
+                <li>
+                    <a href="<?php echo 'adminproduct.php'; ?>"style="color:#7386D5;background: #fff;">Products</a>
+                </li>
+            </ul>
+        </nav>
+<div id="content">
+<div class="container-fluid">
+
+
+
+
+
+<!-- DASHBOARD -->
+<div class="container">
+<div class="top">
+<br><br><br>
+        <div class="row">
+            <div class="col-sm-11 mt-5">
+			<button type="button" id="sidebarCollapse" class="btn btn-info">
+					<i class="fas fa-align-left"></i>
+					<span></span>
+				</button>
+                <h1>Dashboard</h1>  
+                <hr>
+            </div>
+            <div class="col-sm-1 mt-5">
+                <!-- <i class="fa fa-bell" aria-hidden="true"></i>
+                <i class="fa fa-user" aria-hidden="true"></i> -->
+            </div>
+        </div>
+    </div>
+<div class="containerhot" style="margin: 50px; margin-left:80px;">
+<div class="row">
+	<div class="card" style="width: 15rem; height:150px;">
+	<div class="top">
+		<div class="card-body">
+		<div class="col-sm-11 ">
+			<h6 class="card-title text-muted">Today's Orders</h6>
+			<h6 class="card-subtitle">2</h6>
+		</div>
+		</div>
+		<div class="iconicon" style="float: right;">
+		<div class="col-sm-1 ">
+			<i class="fa fa-shopping-cart" style="font-size:36px"></i>
+        </div>
+		</div>
+	</div>
+	</div>
+	<div class="card" style="width: 15rem; height:150px;margin-left:10px;">
+	<div class="top">
+		<div class="card-body">
+		<div class="col-sm-11 ">
+			<h6 class="card-title text-muted">Today's Earnings</h6>
+			<h6 class="card-subtitle ">₱2000.00</h6>
+		</div>
+		</div>
+		<div class="iconicon" style="float: right;">
+		<div class="col-sm-1 ">
+			<i class="fa fa-coins" style="font-size:36px"></i>
+        </div>
+		</div>
+	</div>
+	</div>
+	<div class="card" style="width: 15rem; height:150px; margin-left:10px;">
+	<div class="top">
+		<div class="card-body">
+		<div class="col-sm-11 ">
+			<h6 class="card-title text-muted">Total Accounts</h6>
+			<h6 class="card-subtitle ">20</h6>
+		</div>
+		</div>
+		<div class="iconicon" style="float: right;">
+		<div class="col-sm-1 ">
+			<i class="fa fa-users" style="font-size:36px"></i>
+        </div>
+		</div>
+	</div>
+	</div>
+	<div class="card" style="width: 15rem; height:150px; margin-left:10px;">
+	<div class="top">
+		<div class="card-body">
+		<div class="col-sm-11 ">
+			<h6 class="card-title text-muted">Total Products</h6>
+			<h6 class="card-subtitle ">40</h6>
+		</div>
+		</div>
+		<div class="iconicon" style="float: right;">
+		<div class="col-sm-1 ">
+			<i class="fa fa-dropbox" style="font-size:36px"></i>
+        </div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+<!-- TODAYS TRANSACTION -->
 <div class="container">
     <div class="top">
         <div class="row">
             <div class="col-sm-11 mt-5">
-                <h1>Product</h1>  
-                <p>00 total product</p>
+                <h1>Inventory</h1>  
+                <hr>
             </div>
             <div class="col-sm-1 mt-5">
-                <i class="fa fa-bell" aria-hidden="true"></i>
-                <i class="fa fa-user" aria-hidden="true"></i>
+                <!-- <i class="fa fa-bell" aria-hidden="true"></i>
+                <i class="fa fa-user" aria-hidden="true"></i> -->
             </div>
         </div>
     </div>
@@ -97,11 +180,14 @@
 	<thead class="text-muted">
 		<tr>
 		<th scope="col" width="10">ID</th>
-  		<th scope="col" width="100">Name</th>
-  		<th scope="col" width="270">Figure Line</th>
-        <th scope="col" width="120">Date</th>
-  		<th scope="col" width="200">Price</th>
-          <th scope="col" width="300">Quantity</th>
+  		<th scope="col" width="370">Product Name</th>
+		<th scope="col" width="160">Date</th>
+  		<!-- <th scope="col" width="270">Address</th> -->
+		<th scope="col" width="200">Price</th>
+		<th scope="col" width="120">Stocks</th>
+		<th scope="col" width="200">Total</th>
+  		
+        
   		<th scope="col" width="200" class="text-right">Action</th>
 		</tr>
 	</thead>
@@ -117,76 +203,70 @@
 	</td>
 	<td>
 		<div class="media">
-		
-		<div>
-			<h6 class="title text-truncate">User Name</h6>
-			<dl class="param param-inline small">
-			<dt>User Details: <dd>User Details</dd></dt>
-			</dl>
-			
-		</div>
+			<!--Product Name-->	
+			<div>
+				<h6 class="title text-truncate"><img src="..." alt="" style="width: 60px; height:60px;">Product Name</h6>
+			</div>
+			<!--Product Name-->	
 		</div> 
 		</td>
 		<td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-		 		
-				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">Product Description</small> 
+		 	<!--Date-->	
+		 	<div class="ml-0 mt-1">
+				<small class="text-muted font-italic">mm/dd/yy</small> 
 				</div>
             </div>
+			<!--Date-->	
     </div>
 	</div>
 		</td>
         <td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-		 		
-				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">mm/dd/yy</small> 
-				</div>
-            </div>
+			<!--Price-->
+			<div class="price-wrap"> 
+				<var class="price">PHP 00.00</var> 
+				<br>
+				<small class="text-muted">(PHP00.00 each)</small> 
+			</div>
+			<!--Price-->
     </div>
 	</div>
 		</td>
 		<td> 
-		<!--Price-->
-		<div class="price-wrap"> 
-			<var class="price">PHP 00.00</var> 
-			<br>
-			<small class="text-muted">(PHP00.00 each)</small> 
-		</div>
-		<!--Price-->
+		<!--Stocks-->
+			<div>
+				<h6 class="title text-center">1</h6>				
+			</div>
+		<!--Stocks-->
 		</td>
         <td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-		 		
-		 	<div class="def-number-input number-input safari_only mb-0 w-100">
-		 		<button title="Less" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Less Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
-          		<input class="quantity" min="0" name="quantity" value="1" type="number" style="width:120px;">
-                <button title="Add" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Add Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
-				<br>
-				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">(00 available stocks)</small> 
+		 	<!--Total-->
+				<div class="price-wrap"> 
+					<var class="price">PHP 00.00</var> 
+					<br>
+					<small class="text-muted">(PHP00.00 each)</small> 
 				</div>
-            </div>
+			<!--Total-->
             </div>
     </div>
 	</div>
 		</td>
-		<td class="text-right"> 
-			
-			 
+		
+		<td class="text-right">
+			<!--Action-->
 			<a title="Remove Product" href="" class="btn btn-outline-danger"> × Remove</a>
+			<!--Action-->
 		</td>
 		</tr>	
 </tbody>
 
 <tbody>
-	<tr>
+<tr>
 	<td>
 	<!-- Default checkbox -->
 	<div class="form-check" style = "margin-top:30px">
@@ -196,74 +276,70 @@
 	</td>
 	<td>
 		<div class="media">
-		
-		<div>
-			<h6 class="title text-truncate">User Name</h6>
-			<dl class="param param-inline small">
-			<dt>User Details: <dd>User Details</dd></dt>
-			</dl>
-			
-		</div>
+			<!--Product Name-->	
+			<div>
+			<h6 class="title text-truncate"><img src="..." alt="" style="width: 60px; height:60px;">Product Name</h6>
+			</div>
+			<!--Product Name-->	
 		</div> 
 		</td>
 		<td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-            <div class="ml-0 mt-1">
-				<small class="text-muted font-italic">Product Description</small> 
-			</div>
-        </div>
+		 	<!--Date-->	
+		 	<div class="ml-0 mt-1">
+				<small class="text-muted font-italic">mm/dd/yy</small> 
+				</div>
+            </div>
+			<!--Date-->	
     </div>
 	</div>
 		</td>
         <td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-		 		
-				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">mm/dd/yy</small> 
-				</div>
-            </div>
+			<!--Price-->
+			<div class="price-wrap"> 
+				<var class="price">PHP 00.00</var> 
+				<br>
+				<small class="text-muted">(PHP00.00 each)</small> 
+			</div>
+			<!--Price-->
     </div>
 	</div>
 		</td>
 		<td> 
-		<!--Price-->
-		<div class="price-wrap"> 
-			<var class="price">PHP 00.00</var> 
-			<br>
-			<small class="text-muted">(PHP00.00 each)</small> 
-		</div>
-		<!--Price-->
+		<!--Stocks-->
+			<div>
+				<h6 class="title text-center">1</h6>				
+			</div>
+		<!--Stocks-->
 		</td>
         <td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-		 		
-		 	<div class="def-number-input number-input safari_only mb-0 w-100">
-		 		<button title="Less" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Less Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
-          		<input class="quantity" min="0" name="quantity" value="1" type="number" style="width:120px;">
-                <button title="Add" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Add Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
-				<br>
-				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">(00 available stocks)</small> 
+		 	<!--Total-->
+				<div class="price-wrap"> 
+					<var class="price">PHP 00.00</var> 
+					<br>
+					<small class="text-muted">(PHP00.00 each)</small> 
 				</div>
+			<!--Total-->
             </div>
     </div>
 	</div>
 		</td>
-		<td class="text-right"> 
-			
-			
+		
+		<td class="text-right">
+			<!--Action-->
 			<a title="Remove Product" href="" class="btn btn-outline-danger"> × Remove</a>
+			<!--Action-->
 		</td>
 		</tr>	
 </tbody>
 
 <tbody>
-	<tr>
+<tr>
 	<td>
 	<!-- Default checkbox -->
 	<div class="form-check" style = "margin-top:30px">
@@ -273,70 +349,66 @@
 	</td>
 	<td>
 		<div class="media">
-		
-		<div>
-			<h6 class="title text-truncate">User Name</h6>
-			<dl class="param param-inline small">
-			<dt>User Details: <dd>User Details</dd></dt>
-			</dl>
-			
-		</div>
+			<!--Product Name-->	
+			<div>
+			<h6 class="title text-truncate"><img src="..." alt="" style="width: 60px; height:60px;">Product Name</h6>
+			</div>
+			<!--Product Name-->	
 		</div> 
 		</td>
 		<td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-            <div class="ml-0 mt-1">
-				<small class="text-muted font-italic">Product Description</small> 
-			</div>
-        </div>
+		 	<!--Date-->	
+		 	<div class="ml-0 mt-1">
+				<small class="text-muted font-italic">mm/dd/yy</small> 
+				</div>
+            </div>
+			<!--Date-->	
     </div>
 	</div>
 		</td>
         <td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-		 		
-				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">mm/dd/yy</small> 
-				</div>
-            </div>
+			<!--Price-->
+			<div class="price-wrap"> 
+				<var class="price">PHP 00.00</var> 
+				<br>
+				<small class="text-muted">(PHP00.00 each)</small> 
+			</div>
+			<!--Price-->
     </div>
 	</div>
 		</td>
 		<td> 
-		<!--Price-->
-		<div class="price-wrap"> 
-			<var class="price">PHP 00.00</var> 
-			<br>
-			<small class="text-muted">(PHP00.00 each)</small>
-		</div>
-		<!--Price-->
+		<!--Stocks-->
+			<div>
+				<h6 class="title text-center">1</h6>				
+			</div>
+		<!--Stocks-->
 		</td>
         <td> 
 		<div>
          <div class="def-number-input number-input safari_only mb-0 w-100">
-		 		
-		 	<div class="def-number-input number-input safari_only mb-0 w-100">
-		 		<button title="Less" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Less Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepDown()"
-                class="minus"><i class="fa fa-minus" aria-hidden="true"></i></button>
-          		<input class="quantity" min="0" name="quantity" value="1" type="number" style="width:120px;">
-                <button title="Add" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Add Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
-                class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
-				<br>
-				<div class="ml-0 mt-1">
-				<small class="text-muted font-italic">(00 available stocks)</small> 
+		 	<!--Total-->
+				<div class="price-wrap"> 
+					<var class="price">PHP 00.00</var> 
+					<br>
+					<small class="text-muted">(PHP00.00 each)</small> 
 				</div>
+			<!--Total-->
             </div>
     </div>
 	</div>
 		</td>
-		<td class="text-right"> 
-			
-			
+		
+		<td class="text-right">
+			<!--Action-->
 			<a title="Remove Product" href="" class="btn btn-outline-danger"> × Remove</a>
+			<!--Action-->
 		</td>
-		</tr>	
+		</tr>		
 </tbody>
 </table>
 </div>
@@ -360,7 +432,7 @@
 		<!--Price-->
 	</td>
 	<td class="text-right"> 
-    <button title="Add" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Add Quantity" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
+    <button title="Add" href="" class="btn btn-outline-dark" data-toggle="tooltip" data-original-title="Add Stocks" onclick="this.parentNode.querySelector('input[type=number]').stepUp()"
                 class="plus"><i class="fa fa-plus" aria-hidden="true"></i></button>
 	</td>
 	</tr>	
@@ -370,7 +442,9 @@
 </div>
 </div> 
 <!-- End Second Container-->
-
+</div>
+</div>
+</div>
 
 
 
@@ -514,5 +588,27 @@
 <script src="https://kit.fontawesome.com/fddf5c0916.js" crossorigin="anonymous"></script>
 <!-- Admin order -->
 <script src="css/adminorder.js" crossorigin=""></script>
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
 </body>
 </html>
